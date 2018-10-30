@@ -3,13 +3,13 @@
 {% block content %}
 
 <div class="jumbotron">
-    <h1>Cadastro de cursos</h1>
+    <h1>Cadastro de móveis</h1>
 </div>
 
 <table class="table">
-    <tr><th>Nome do curso</th><th>Período</th><th>Faculdade</th></tr>
+    <tr><th>Nome do produto</th><th>Período</th><th>Modelo</th></tr>
         {% for curso in cursos %}
-          <tr><td>{{ curso }}</td><td>Noturno</td><td>Faculdade Impacta</td></tr>
+          <tr><td>{{ curso }}</td><td>Mesa</td><td>AE32</td></tr>
         {% endfor %}
 </table>
 
